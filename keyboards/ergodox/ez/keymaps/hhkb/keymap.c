@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|   ~  |           |      |------+------+------+------+------+--------|
  * | LShift |   Z  |   X  |   C  |   V  |   B  |   `  |           |  b   |   N  |   M  |   ,  |   .  |   /  | - _    |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |      |      |      | LAlt | LGui |                                       | RGui | .    |      |      |  "  '  |
+ *   |      |      |      | LAlt | LGui |                                       | RGui |      |  =   |      |  "  '  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        | Home | PgUp |       | PgDn | End  |
@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              S(KC_RBRC),     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_BSPC,
                           KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,          KC_ENT,
              KC_B,     KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,          KC_MINS,
-                               KC_RGUI,   KC_DOT, KC_TRNS,  KC_TRNS,         KC_QUOT,
+                               KC_RGUI,   KC_TRNS, KC_EQUAL,  KC_TRNS,         KC_QUOT,
              KC_PGDN,     KC_END,
              KC_RALT,
              KC_RALT,KC_QUOT, KC_SPC
